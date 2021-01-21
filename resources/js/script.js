@@ -240,7 +240,7 @@ function showSubmitDreamMessage() {
 
 const companies = [
   {
-    logo : "assets/img/purch.png",
+    logo : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/purch.png",
     cityCode: "riga",
     typeCode : "food",
     name  : "PURCH resturant",
@@ -251,7 +251,7 @@ const companies = [
     longitude : "24.190937",
   },
   {
-    logo : "assets/img/kurts.png",
+    logo : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/kurts.png",
     cityCode: "riga",
     typeCode : "food",
     name : "Kurts coffee",
@@ -262,7 +262,7 @@ const companies = [
     longitude : "24.121022",
   },
   {
-    logo : "assets/img/auch.png",
+    logo : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/auch.png",
     cityCode: "riga",
     typeCode : "beauty",
     name  : "AUCH beauty home",
@@ -273,7 +273,7 @@ const companies = [
     longitude : "24.140532",
   },
   {
-    logo : "assets/img/logo_Linearis.png",
+    logo : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/logo_Linearis.png",
     cityCode: "riga",
     typeCode : "translate",
     name  : "Linearis translations",
@@ -667,12 +667,12 @@ function displayMarker(company) {
   const marker = new google.maps.Marker({
     position: new google.maps.LatLng(company.latitude,company.longitude),
     map,
-    icon: "assets/img/marker.png"
+    icon: "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/marker.png"
   });
   markers.push(marker);
 
-  let activeIcon = {url: "assets/img/blackMarker.png"};
-  let icon = {url: "assets/img/marker.png"};
+  let activeIcon = {url: "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/blackMarker.png"};
+  let icon = {url: "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/marker.png"};
   let contentString =
   '<div class="popup-logo"><img src="' + company.logo +
      '"></div><div class="popup-text-wrap"><div class="popup-name"><p class="page-undertitle name">' + company.name +
@@ -757,87 +757,87 @@ function nextSlide() {
 const stories = [
   { id : 1,
     name : "Sibilla",
-    image : "assets/img/17.jpg",
+    image : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/17.jpg",
     link : "https://sparkleheart.org/wp-content/uploads/2020/09/Sibilla.mp4",
   },
   { id : 2,
     name : "Lauma",
-    image : "assets/img/11.jpg",
+    image : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/11.jpg",
     link : "https://sparkleheart.org/wp-content/uploads/2020/09/Lauma.mp4",
   },
   { id : 3,
     name : "Valentīna",
-    image : "assets/img/16.jpg",
+    image : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/16.jpg",
     link : "https://sparkleheart.org/wp-content/uploads/2020/09/BM_3OF99_Valentina.mp4",
   },
   { id : 4,
     name : "Arta",
-    image : "assets/img/5.jpg",
+    image : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/5.jpg",
     link : "https://sparkleheart.org/wp-content/uploads/2020/09/BM_4OF99_Arta.mp4",
   },
   { id : 5,
     name : "Ketija",
-    image : "assets/img/10.jpg",
+    image : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/10.jpg",
     link : "https://sparkleheart.org/wp-content/uploads/2020/09/BM_5OF99_Ketija.mp4",
   },
   { id : 6,
     name : "Anda",
-    image : "assets/img/6.jpg",
+    image : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/6.jpg",
     link : "https://sparkleheart.org/wp-content/uploads/2020/09/BM_6OF99_Anda.mp4",
   },
   { id : 7,
     name : "Asnāte",
-    image : "assets/img/4.jpg",
+    image : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/4.jpg",
     link : "https://sparkleheart.org/wp-content/uploads/2020/09/BM_7OF99_Asnate.mp4",
   },
   { id : 8,
     name : "Indra",
-    image : "assets/img/8.jpg",
+    image : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/8.jpg",
     link : "https://sparkleheart.org/wp-content/uploads/2020/09/BM_8OF99_Indra.mp4",
   },
   { id : 9,
     name : "Alīna",
-    image : "assets/img/1.jpg",
+    image : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/1.jpg",
     link : "https://sparkleheart.org/wp-content/uploads/2020/09/BM_9OF99_Alina.mp4",
   },
   { id : 10,
     name : "Līga",
-    image : "assets/img/12.jpg",
+    image : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/12.jpg",
     link : "https://sparkleheart.org/wp-content/uploads/2020/09/BM_10OF99_Liga.mp4",
   },
   { id : 11,
     name : "Regīna",
-    image : "assets/img/14.jpg",
+    image : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/14.jpg",
     link : "https://sparkleheart.org/wp-content/uploads/2020/09/BM_11OF99_Regina.mp4",
   },
   { id : 12,
     name : "Marta",
-    image : "assets/img/13.jpg",
+    image : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/13.jpg",
     link : "https://sparkleheart.org/wp-content/uploads/2020/09/BM_12OF99_Marta.mp4",
   },
   { id : 13,
     name : "Zanda",
-    image : "assets/img/15.jpg",
+    image : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/15.jpg",
     link : "https://sparkleheart.org/wp-content/uploads/2020/09/BM_13OF99_Zanda.mp4",
   },
   { id : 14,
     name : "Ilze",
-    image : "assets/img/7.jpg",
+    image : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/7.jpg",
     link : "https://sparkleheart.org/wp-content/uploads/2020/09/BM_14OF99_Ilze.mp4",
   },
   { id : 15,
     name : "Katrīna",
-    image : "assets/img/9.jpg",
+    image : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/9.jpg",
     link : "https://sparkleheart.org/wp-content/uploads/2020/09/BM_15OF99_Katrina.mp4",
   },
   { id : 16,
     name : "Gunita",
-    image : "assets/img/2.jpg",
+    image : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/2.jpg",
     link : "https://sparkleheart.org/wp-content/uploads/2020/09/BM_16OF99_Gunita.mp4",
   },
   { id : 17,
     name : "Egija",
-    image : "assets/img/3.jpg",
+    image : "http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/3.jpg",
     link : "https://sparkleheart.org/wp-content/uploads/2020/09/BM_17OF99_Egija.mp4",
   },
   { id : 18,
@@ -917,7 +917,7 @@ function generateStoryContent(story) {
 
     if(story.soon) {
       result = `<figure class="story-image">
-                  <img src="assets/img/extra-gold.png" alt="Zelta krāsas kvadrāts.">
+                  <img src="http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/extra-gold.png" alt="Zelta krāsas kvadrāts.">
                   <p class="page-undertitle new-stories">${story.name}</p>
                 </figure>
                 <div class="story-number page-undertitle">${storyNumber}</div>­­`
@@ -1014,7 +1014,7 @@ function generateOverlayContent(story) {
                 Jūsu interneta pārlūks neļauj atskaņot video.
                 <source src="${story.link}">
               </video>
-              <img class="story-video-playImg" id="js-story-playImg" src="assets/img/play.png" alt="Atskaņošanas pogas attēls." width="126" height="123">
+              <img class="story-video-playImg" id="js-story-playImg" src="http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/play.png" alt="Atskaņošanas pogas attēls." width="126" height="123">
             </div>
             <div class="storyteller" id="js-storyteller">
               <p class="page-undertitle">${story.name}</p>
