@@ -1,0 +1,1 @@
+<!--  Iekša aprakstam DETALIZĒTI kā palaist projektu un citus svarīgu informāciju, kas varētu būt noderīga citiem programmētājiem strādājot ar šo lapu. Ar  ekrānšāvieniem vai ļoti ļoti detalizēts apraksts, ko darīt programmētajam, kad viņam būs jāuzstāda lapa uz savas vides. -->

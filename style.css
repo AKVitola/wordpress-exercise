@@ -106,7 +106,7 @@ body {
   z-index: 2;
 
   margin: 0 auto;
-  background-image: url("http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/ripped_header.png");
+  background-image: url("../../../wp-content/uploads/2021/01/ripped_header.png");
 }
 
 .black-logo {
@@ -270,8 +270,7 @@ body {
   height: 129px;
   margin-left: calc(50% - 66px);
   z-index: 1;
-  background: url("http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/play.png")
-    center;
+  background: url("../../../wp-content/uploads/2021/01/play.png") center;
   background-repeat: no-repeat;
 }
 
@@ -328,7 +327,7 @@ body {
 .gallery-row::before,
 .gallery-row::after {
   content: "";
-  background-image: url("http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/ripped.png");
+  background-image: url("../../../wp-content/uploads/2021/01/ripped.png");
   position: absolute;
   max-width: 1366px;
   width: 100%;
@@ -526,7 +525,7 @@ input[type="checkbox"] {
 /* ===Benefactors section=== */
 
 .benefactors {
-  background-image: url("http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/last-segment.png");
+  background-image: url("../../../wp-content/uploads/2021/01/last-segment.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -564,7 +563,7 @@ input[type="checkbox"] {
 
   font-weight: 500;
   color: #fff;
-  background-image: url("http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/footer.png");
+  background-image: url("../../../wp-content/uploads/2021/01/footer.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -778,7 +777,7 @@ input[type="checkbox"] {
 .founder::before,
 .founder::after {
   content: "";
-  background-image: url("http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/ripped.png");
+  background-image: url("../../../wp-content/uploads/2021/01/ripped.png");
   position: absolute;
   width: 100%;
   height: 55px;
@@ -974,7 +973,7 @@ input[type="checkbox"] {
 .dream-gallery-row::before,
 .dream-gallery-row::after {
   content: "";
-  background-image: url("http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/ripped.png");
+  background-image: url("../../../wp-content/uploads/2021/01/ripped.png");
   position: absolute;
 
   max-width: 1366px;
@@ -1099,7 +1098,7 @@ input[type="checkbox"] {
   margin-top: 130px;
   cursor: pointer;
   outline: none;
-  background: url("http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/video-img.jpg");
+  background: url("../../../wp-content/uploads/2021/01/video-img.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
@@ -1111,7 +1110,7 @@ input[type="checkbox"] {
   height: 120px;
   top: -500px;
   margin-left: calc(50% - 60px);
-  background: url("http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/play.png");
+  background: url("../../../wp-content/uploads/2021/01/play.png");
 }
 
 .video-overlay,
@@ -1563,7 +1562,7 @@ button.zoom-control {
 
 .story-image::before {
   content: "";
-  background-image: url("http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/extra-gold.png");
+  background-image: url("../../../wp-content/uploads/2021/01/extra-gold.png");
   background-size: cover;
   position: absolute;
   margin-left: -1px;
@@ -1581,7 +1580,7 @@ button.zoom-control {
 .gold-image {
   position: absolute;
   content: "";
-  background-image: url("http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/extra-gold.png");
+  background-image: url("../../../wp-content/uploads/2021/01/extra-gold.png");
   background-size: cover;
 }
 
@@ -1704,7 +1703,7 @@ button.zoom-control {
   width: 23px;
   height: 23px;
   margin-left: 1040px;
-  background: url("http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/close.png");
+  background: url("../../../wp-content/uploads/2021/01/close.png");
 }
 
 .sparkle-team {
@@ -2285,7 +2284,7 @@ button.zoom-control {
   .footer {
     top: -125px;
     height: 499px;
-    background-image: url("http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/footerMobile.png");
+    background-image: url("../../../wp-content/uploads/2021/01/footerMobile.png");
   }
 
   .flex-container-footer {

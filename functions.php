@@ -8,7 +8,10 @@ function sparkleHeart_project_scripts()
   wp_enqueue_style("parent-style", get_template_directory_uri() . "/style.css", array());
   wp_enqueue_style("child-style", get_stylesheet_directory_uri() . "/style.css", array("parent-style"));
 
-  wp_enqueue_script("script", get_stylesheet_directory_uri() . "/resources/theme.js", array(), 1, 1, 1);
+  wp_enqueue_script("script", get_stylesheet_directory_uri() . "/assets/theme.js", array(), 1, 1, 1);
+  wp_enqueue_script("custom_script", get_stylesheet_directory_uri() . "/resources/js/script.js", array(), 1, 1, 1);
+
+  wp_enqueue_script("google_maps", "https://maps.googleapis.com/maps/api/js?key=AIzaSyBGAreWrw02_bh5cUQ2Kgl_k0HRoKnsjPw&callback=initMap&libraries=&v=weekly", array(), 1, 1, 1);
 }
 
 add_action("wp_enqueue_scripts", "sparkleHeart_project_scripts");
