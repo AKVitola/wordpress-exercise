@@ -1,6 +1,4 @@
 <body>
-  <!-- <div class="container submit-dream"> -->
-
   <?php get_header(); ?>
 
   <main>
@@ -77,9 +75,4 @@
 
   <?php get_template_part('template-parts/cookies'); ?>
 
-  <!-- <section class="dream-footer">
-    <footer class="footer"></footer>
-  </section> -->
-
-  <!-- </div> -->
   <?php get_footer(); ?>

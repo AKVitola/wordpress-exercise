@@ -1,5 +1,4 @@
 <body>
-  <!-- <div class="container"> -->
   <?php get_header(); ?>
 
   <main>
@@ -37,18 +36,17 @@
 
     <?php get_template_part('template-parts/contacts'); ?>
 
-
-    <!-- <form class="contact-form" action="/"></form> -->
-
+    <section class="contact-section-wrap">
+      <form class="contact-form" action="/">
+        <?php echo apply_shortcodes('[contact-form-7 id="5" title="Dream form"]'); ?>
+      </form>
+    </section>
 
     <?php get_template_part('template-parts/benefactors'); ?>
-
     <?php get_template_part('template-parts/toTopBtn'); ?>
 
   </main>
 
   <?php get_template_part('template-parts/cookies'); ?>
-
-  <!-- </div> -->
 
   <?php get_footer(); ?>

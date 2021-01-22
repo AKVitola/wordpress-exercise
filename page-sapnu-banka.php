@@ -1,6 +1,4 @@
 <body>
-  <!-- <div class="container bank"> -->
-
   <?php get_header(); ?>
 
   <main>
@@ -120,12 +118,5 @@
   </main>
 
   <?php get_template_part('template-parts/cookies'); ?>
-
-  <!-- <section class="bank-footer">
-    <footer class="footer"></footer>
-  </section> -->
-
-  <!-- </div> -->
-
 
   <?php get_footer(); ?>

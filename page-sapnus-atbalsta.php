@@ -1,6 +1,4 @@
 <body>
-  <!-- <div class="container supportersPage"> -->
-
   <?php get_header(); ?>
 
   <main>
@@ -49,11 +47,5 @@
   </main>
 
   <?php get_template_part('template-parts/cookies'); ?>
-
-  <!-- <section class="supporters-footer">
-    <footer class="footer"></footer>
-  </section> -->
-
-  <!-- </div> -->
 
   <?php get_footer(); ?>

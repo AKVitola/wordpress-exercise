@@ -1,10 +1,7 @@
 <body>
-  <!-- <div class="container inspiration"> -->
-
   <?php get_header(); ?>
 
   <main>
-
     <section class="stories">
       <h1 class="page-heading">99 iedvesmas stāsti</h1>
       <p class="page-text">
@@ -72,11 +69,5 @@
   </main>
 
   <?php get_template_part('template-parts/cookies'); ?>
-
-  <!-- <section class="inspiration-footer">
-    <footer class="footer"></footer>
-  </section> -->
-
-  <!-- </div> -->
 
   <?php get_footer(); ?>

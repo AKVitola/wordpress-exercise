@@ -63,13 +63,6 @@ body {
   padding: 0;
 }
 
-.container {
-  height: 100%;
-  width: 100%;
-  margin: 0 auto;
-  background: #fff;
-}
-
 .responsive-img {
   max-width: 100%;
   height: auto;
@@ -530,6 +523,7 @@ input[type="checkbox"] {
   background-size: cover;
   width: 100%;
   height: 533.32px;
+  margin-bottom: -85px;
 }
 
 .benefactors-titel {
@@ -556,7 +550,6 @@ input[type="checkbox"] {
 
 .footer {
   position: relative;
-  top: -85px;
   width: 100%;
   height: 374px;
   z-index: 1;
@@ -868,10 +861,6 @@ input[type="checkbox"] {
   user-select: none;
 }
 
-.idea-footer > .footer {
-  top: 0;
-}
-
 /* =================Submit dream page Desktop
 ============================================*/
 
@@ -1023,10 +1012,6 @@ input[type="checkbox"] {
   color: #ffa800;
 }
 
-.dream-footer > .footer {
-  top: 9px;
-}
-
 /* =================Business page Desktop
 =======================================*/
 
@@ -1076,10 +1061,6 @@ input[type="checkbox"] {
 
 .business-form > .checkbox {
   margin-top: 36px;
-}
-
-.business-footer > .footer {
-  top: 6px;
 }
 
 /* ===============Dream bank page Desktop
@@ -1295,10 +1276,6 @@ input[type="checkbox"] {
   margin-top: 154px;
 }
 
-.bank-footer > .footer {
-  top: 1px;
-}
-
 /* ===================Supporters page Desktop
 ============================================*/
 
@@ -1502,10 +1479,6 @@ button.zoom-control {
 
 .supporters-footer {
   height: 331px;
-}
-
-.supporters-footer > .footer {
-  top: -31px;
 }
 
 /* =============Inspiration page Desktop
@@ -1778,10 +1751,6 @@ button.zoom-control {
   height: 368px;
 }
 
-.inspiration-footer > .footer {
-  top: -6px;
-}
-
 /* ===================Error page Desktop
 =======================================*/
 
@@ -1850,10 +1819,6 @@ button.zoom-control {
 
 .error-footer {
   height: 179px;
-}
-
-.error-footer > .footer {
-  top: -195px;
 }
 
 /* ================Cookie-banner Desktop
@@ -2243,6 +2208,7 @@ button.zoom-control {
 
   .benefactors {
     height: 540px;
+    margin-bottom: -125px;
   }
 
   .benefactors-titel {
@@ -2284,7 +2250,6 @@ button.zoom-control {
   /* ===Footer=== */
 
   .footer {
-    top: -125px;
     height: 499px;
     background-image: url("../../../wp-content/uploads/2021/01/footerMobile.png");
   }
@@ -2491,15 +2456,6 @@ button.zoom-control {
     margin-right: 12%;
   }
 
-  .idea-footer {
-    height: 473px;
-  }
-
-  .idea-footer > .footer {
-    top: -2px;
-    height: 499px;
-  }
-
   /* ===============Submit dream page Mobile
 ============================================*/
 
@@ -2635,14 +2591,6 @@ button.zoom-control {
     margin-bottom: 52px;
   }
 
-  .dream-footer {
-    height: 474px;
-  }
-
-  .dream-footer > .footer {
-    top: -1px;
-  }
-
   .submit-message {
     display: none;
     width: 280px;
@@ -2709,14 +2657,6 @@ button.zoom-control {
 
   .business-form > .business-button {
     padding-left: 23px;
-  }
-
-  .business-footer {
-    height: 444px;
-  }
-
-  .business-footer > .footer {
-    top: -31px;
   }
 
   /* ============== Dream bank page Mobile
@@ -2935,10 +2875,6 @@ button.zoom-control {
     max-height: 80px;
   }
 
-  .bank-footer > .footer {
-    top: 39px;
-  }
-
   /* =================Supporters page Mobile
 ============================================*/
 
@@ -3080,10 +3016,6 @@ button.zoom-control {
   .gm-style .gm-style-iw > button {
     top: -1px !important;
     padding-right: 35px !important;
-  }
-
-  .supporters-footer > .footer {
-    top: -18px;
   }
 
   /* ============Inspiration page Mobile
@@ -3250,10 +3182,6 @@ button.zoom-control {
 
   .error-message {
     padding-right: 0;
-  }
-
-  .error-footer > .footer {
-    top: -48px;
   }
 
   /* ==============Cookie-banner Mobile
@@ -3514,6 +3442,7 @@ button.zoom-control {
 
   .benefactors {
     height: 350px;
+    margin-bottom: -87px;
   }
 
   .benefactors-titel {
@@ -3547,7 +3476,6 @@ button.zoom-control {
   /* ===Footer=== */
 
   .footer {
-    top: -87px;
     height: 409px;
   }
 
@@ -3691,10 +3619,6 @@ button.zoom-control {
     margin-right: 11%;
   }
 
-  .idea-footer > .footer {
-    top: 3px;
-  }
-
   /* ================Submit dream page Tablet
 ============================================*/
 
@@ -3778,14 +3702,6 @@ button.zoom-control {
     margin-top: 8px;
   }
 
-  .dream-footer {
-    height: 393px;
-  }
-
-  .dream-footer > .footer {
-    top: -16px;
-  }
-
   /* ==============Business page Tablet
 =======================================*/
 
@@ -3818,10 +3734,6 @@ button.zoom-control {
   .business-form > .checkbox {
     margin-right: 0;
     margin-top: 13px;
-  }
-
-  .business-footer > .footer {
-    top: 39px;
   }
 
   /* ==============Dream bank page Tablet
@@ -3961,10 +3873,6 @@ button.zoom-control {
     padding-left: 1px;
   }
 
-  .bank-footer > .footer {
-    top: 4px;
-  }
-
   /* =================Supporters page Tablet
 ============================================*/
 
@@ -4010,10 +3918,6 @@ button.zoom-control {
   .map-container,
   .map {
     height: 812px;
-  }
-
-  .supporters-footer > .footer {
-    top: -20px;
   }
 
   /* ============Inspiration page Tablet
