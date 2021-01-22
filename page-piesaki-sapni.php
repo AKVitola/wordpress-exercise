@@ -66,9 +66,11 @@
       </div>
     </section>
 
-    <!-- <section class="dream-form">
-      <form class="contact-form" action="/"></form>
-    </section> -->
+    <section class="dream-form">
+      <form class="contact-form" action="/">
+        <?php echo apply_shortcodes('[contact-form-7 id="5" title="Dream form"]'); ?>
+      </form>
+    </section>
 
     <?php get_template_part('template-parts/toTopBtn'); ?>
   </main>

@@ -446,13 +446,13 @@ body {
   color: #2f4858;
 }
 
-input[type="text"],
-input[type="email"] {
+input[type="text"] {
   width: 49%;
 }
 
-input[type="email"] {
+.wpcf7-form-control-wrap.email {
   float: right;
+  width: 49%;
 }
 
 input[type="text"],
@@ -1054,11 +1054,12 @@ input[type="checkbox"] {
   margin-bottom: 60px;
 }
 
-.businessName > input[type="text"] {
+.businessName > span input[type="text"] {
   width: 100%;
+  margin-bottom: 0;
 }
 
-.business-form > .business-button {
+.business-form div > .business-button {
   width: 182px;
   height: 62px;
   margin: 50px auto 0 auto;
@@ -2184,6 +2185,7 @@ button.zoom-control {
 
   input[type="text"],
   input[type="email"],
+  .wpcf7-form-control-wrap.email,
   input[type="tel"],
   .form-field {
     width: 100%;

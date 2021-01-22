@@ -12,9 +12,11 @@
       </p>
     </section>
 
-    <!-- <section>
-      <form class="business-form" action="/"></form>
-    </section> -->
+    <section>
+      <form class="business-form" action="/">
+        <?php echo apply_shortcodes('[contact-form-7 id="157" title="Business-form"]'); ?>
+      </form>
+    </section>
 
     <?php get_template_part('template-parts/toTopBtn'); ?>
 
