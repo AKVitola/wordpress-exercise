@@ -757,7 +757,7 @@ input[type="checkbox"] {
 .founder-overlay {
   position: absolute;
   width: 100%;
-  height: 720px;
+  height: 700px;
   z-index: 1;
   background: linear-gradient(
     180deg,
@@ -784,7 +784,7 @@ input[type="checkbox"] {
 .founder::after {
   transform: rotate(-180deg);
   display: block;
-  top: 670px;
+  top: 650px;
 }
 
 .founder-text-wrap {
@@ -1377,7 +1377,7 @@ input[type="checkbox"] {
 .map-container {
   width: 100%;
   height: 648px;
-  margin: 60px auto 0 auto;
+  margin: 60px auto -30px auto;
 }
 
 .map {

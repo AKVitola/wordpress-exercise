@@ -1,7 +1,7 @@
 <footer class="footer">
   <div class="flex-container-footer">
     <div class="golden-logo">
-      <a href="http://wordpress-exercise.dev.cc/">
+      <a href="/">
         <img src="http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/GoldenLogo-.png" alt="Organizācijas logo zelta krāsā.">
       </a>
     </div>

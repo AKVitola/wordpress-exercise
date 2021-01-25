@@ -3,7 +3,7 @@
   <div class="ripped_header"></div>
 
   <div class="inner-header" id="js-pageTop">
-    <a href="http://wordpress-exercise.dev.cc/">
+    <a href="/">
       <img class="black-logo" src="http://wordpress-exercise.dev.cc/wp-content/uploads/2021/01/BlackLogo.jpg" alt="Melnbalts kompānijas logo.">
     </a>
 

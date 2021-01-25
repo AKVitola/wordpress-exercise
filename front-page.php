@@ -35,12 +35,11 @@
     </section>
 
     <?php get_template_part('template-parts/contacts'); ?>
+    <?php get_template_part('template-parts/contact'); ?>
 
-    <section class="contact-section-wrap">
-      <form class="contact-form" action="/">
-        <?php echo apply_shortcodes('[contact-form-7 id="5" title="Dream form"]'); ?>
-      </form>
-    </section>
+    <form class="contact-form" action="/">
+      <?php echo apply_shortcodes('[contact-form-7 id="5" title="Dream form"]'); ?>
+    </form>
 
     <?php get_template_part('template-parts/benefactors'); ?>
     <?php get_template_part('template-parts/toTopBtn'); ?>
