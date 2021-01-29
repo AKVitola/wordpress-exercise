@@ -15,3 +15,16 @@ function sparkleHeart_project_scripts()
 }
 
 add_action("wp_enqueue_scripts", "sparkleHeart_project_scripts");
+
+
+//Stop W3TC From Printing HTML Comments
+add_filter('w3tc_can_print_comment', function ($w3tc_setting) {
+  return false;
+}, 10, 1);
+
+//To add the async attribute to the footer script produced by Autoptimize
+add_filter('autoptimize_filter_js_defer', 'my_ao_override_defer', 10, 1);
+function my_ao_override_defer($defer)
+{
+  return $defer . "async ";
+}

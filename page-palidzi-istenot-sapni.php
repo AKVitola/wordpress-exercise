@@ -3,11 +3,8 @@
 
   <main>
     <section class="businessman">
-      <h1 class="page-heading">Uzņēmējiem</h1>
-      <p class="page-text">
-        Ja ticat labākas pasaules attīstībai un vēlaties piedalīties starptautisku ideju realizēšanā, tad priecāsimies ar Jums
-        iepazīties.
-      </p>
+      <h1 class="page-heading"> <?php the_title(); ?></h1>
+      <p class="page-text"> <?php the_field('page_text'); ?> </p>
     </section>
 
     <section>
@@ -17,9 +14,7 @@
     </section>
 
     <?php get_template_part('template-parts/toTopBtn'); ?>
-
   </main>
 
   <?php get_template_part('template-parts/cookies'); ?>
-
   <?php get_footer(); ?>

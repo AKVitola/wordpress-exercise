@@ -3,11 +3,8 @@
 
   <main>
     <section class="dream-supporters">
-      <h1 class="page-heading">Sapņus atbalsta</h1>
-      <p class="page-text">
-        Sadarbības partneri ir uzņēmumi, kuri savā preču vai pakalpojumu ikdienā ir integrējuši SparkleHeart zīmolu un dala ar
-        to konkrētu daļu savu ienākumu.
-      </p>
+      <h1 class="page-heading"> <?php the_title(); ?></h1>
+      <p class="page-text"> <?php the_field('page_text'); ?> </p>
     </section>
 
     <section class="select-container">
@@ -47,5 +44,4 @@
   </main>
 
   <?php get_template_part('template-parts/cookies'); ?>
-
   <?php get_footer(); ?>
